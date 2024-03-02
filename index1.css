@@ -1,0 +1,99 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.header{
+width: 100%;
+background-image: url(/image/main.jpg);
+/* background-repeat: no-repeat; */
+background-attachment: fixed;
+min-height: 100vh;
+
+}
+
+nav{
+    display: flex;
+    /* margin: 2px 5px; */
+    padding: 3% 5%;
+    justify-content: space-between;
+}
+/* .nav-menu{
+    flex: 1;
+} */
+nav h2{
+   font-size: 35px; 
+  text-transform: uppercase;
+}
+.nav-menu{
+    flex:1;
+    text-align: right;
+  
+}
+
+.nav-menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 6px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: large;
+    text-transform: uppercase;
+}
+.nav-menu ul li a:hover{
+    text-decoration: none;
+    color: red;
+    font-weight: 800;
+    font-size: large;
+    text-transform: uppercase;
+}
+#submit{
+    background-color: aqua;
+    padding: 5px;
+    font-weight: 700;
+    font-size: medium;
+}
+#submit:hover{
+    background-color: gray;
+    padding: 5px;
+    font-weight: 700;
+    font-size: medium;
+}
+.man-image{
+top: 30%;
+position: absolute;
+left:62%;
+height: 70%;
+width: 350px;
+
+}
+.description h3{
+  margin-top: 150px;
+  margin-left: 150px;
+  text-transform: uppercase;
+    font-size: larger;
+}
+.description p{
+   position: absolute;
+   margin-left: 150px; 
+   font-size: large;
+}
+.description a{
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.description a:hover{
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 30px;
+    color: rgb(255, 0, 8);
+
+}
+
+
+
